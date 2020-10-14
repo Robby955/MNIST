@@ -1,5 +1,5 @@
 
-#This document shows how build a simple neural network from this MNIST dataset. It utilizes the built in datasets of Keras to load the data in directly.
+#This document shows how build a simple neural network from this MNIST dataset. It utilizes the built-in datasets of Keras to load the data in directly.
 # We use only a single convolutional layer followed be a single max pooling layer.
 
 import tensorflow as tf
