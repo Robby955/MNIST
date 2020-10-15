@@ -4,6 +4,7 @@ creating a CNN to analysis the multioutput MNIST Fashion Data set.
 
 We also incorporate Max Pooling to improve our results, and callbacks to provide information on convergence. 
 
+![What is this](image/mnist.png)
 
 ![What is this](image/fashion.png)
 
