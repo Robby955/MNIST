@@ -1,5 +1,5 @@
 
-#This document shows how build a simple neural network from this MNIST dataset. It utilizes the built-in datasets of Keras to load the data in directly.
+#This document shows how to build a simple neural network from this MNIST dataset. It utilizes the built-in datasets of Keras to load the data in directly.
 # We use only a single convolutional layer followed be a single max pooling layer.
 
 import tensorflow as tf
@@ -41,6 +41,7 @@ model= tf.keras.models.Sequential([
     tf.keras.layers.Dense(10,activation='softmax')
     ])
 
+# Adam Optimization, train for 50 epochs at most
 model.compile(optimizer='adam',loss='sparse_categorical_crossentropy',metrics=['accuracy'])
 my_model= model.fit(X_train,Y_train,epochs=50,callbacks=[callbacks])
 
